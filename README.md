@@ -2,6 +2,8 @@
 🎓 Türkçe Açık Uçlu Soru Puanlama Sistemi (NLP)
 Bu proje, TÜBİTAK 2209-A (2025/1. Dönem)  kapsamında yürütücülüğünü üstlendiğim akademik bir araştırmanın uygulama prototipidir. 
 Amacı, öğrencilerin verdiği Türkçe yanıtları, bir öğretmenin cevap anahtarı anlamsal olarak puanlamaktır.
+Bu prototip, projenin temel iş akışını doğrulamak için geliştirilmiştir. 
+Regex katmanı ile verideki gürültüler (kurum adları, tarihler) elenmekte, ardından Sentence-BERT mimarisi ile öğrenci yanıtları anlamsal olarak puanlanmaktadır.
 
 🚀 Öne Çıkan Özellikler
 
